@@ -1,0 +1,27 @@
+{
+    "name": "gdrive_api_playground",
+    "version": "1.0.0",
+    "description": "Test Suite for Google Drive API playground",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "vulnerabilityCheck": "npm audit",
+        "lint": "eslint specs/*"
+    },
+    "author": "Prasad Mudedla",
+    "license": "ISC",
+    "devDependencies": {
+        "eslint": "^5.14.1",
+        "eslint-config-airbnb-base": "^13.1.0",
+        "eslint-plugin-import": "^2.16.0",
+        "jest": "^24.1.0",
+        "jest-cli": "^24.1.0",
+        "jest-html-reporter": "^2.4.4",
+        "path": "^0.12.7",
+        "superagent": "^4.1.0",
+        "superagent-retry": "^0.6.0"
+    },
+    "dependencies": {
+        "supertest": "^3.4.2"
+    }
+}
